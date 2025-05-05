@@ -1,4 +1,4 @@
-# MS Capital Liquidity Dashboard
+# Liquidity Dashboard
 
 A comprehensive dashboard for tracking Indian equity market liquidity and providing data-driven cash allocation recommendations based on market indicators.
 

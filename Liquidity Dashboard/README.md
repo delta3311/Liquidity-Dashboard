@@ -34,7 +34,7 @@ Built using:
    npm run dev
    ```
 
-4. Access the dashboard at http://localhost:5000
+4. Access the dashboard at http://localhost:3000
 
 ## Key Features
 

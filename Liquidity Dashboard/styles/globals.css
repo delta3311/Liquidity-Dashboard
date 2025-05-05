@@ -1,0 +1,222 @@
+/* Component-level styling */
+
+/* Chart controls */
+.chart-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.chart-controls button {
+  padding: 0.4rem 0.8rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.chart-controls button:hover {
+  background-color: #e0e0e0;
+}
+
+.chart-controls button.active {
+  background-color: #0070f3;
+  color: white;
+  border-color: #0070f3;
+}
+
+/* Chart container */
+.chart-container {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+/* Stats grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #eee;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+.stat-value {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.stat-change {
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+.stat-change.positive {
+  color: #28a745;
+}
+
+.stat-change.negative {
+  color: #dc3545;
+}
+
+/* Loading and error states */
+.loading {
+  text-align: center;
+  padding: 2rem 0;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  padding: 1rem;
+  color: #d32f2f;
+  background-color: #ffebee;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+/* Feature importance bars */
+.feature-importance {
+  margin-top: 1.5rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.section-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #0070f3;
+  cursor: pointer;
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
+
+.feature-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.3rem;
+  font-size: 0.85rem;
+}
+
+.feature-bar {
+  height: 12px;
+  background-color: #0070f3;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+}
+
+/* Cash Allocation specific styles */
+.recommendation-card {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-title {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-bottom: 0.5rem;
+}
+
+.recommendation-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.recommendation-text {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.recommendation-risk {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.8rem;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.allocation-range {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.range-label {
+  color: #666;
+  margin-right: 0.5rem;
+}
+
+.range-value {
+  font-weight: 500;
+  color: #333;
+}
+
+.allocation-tip {
+  background-color: #f8f9fa;
+  border-left: 3px solid #0070f3;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.allocation-tip p {
+  margin: 0.5rem 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .chart-controls {
+    justify-content: center;
+  }
+  
+  .recommendation-value {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}

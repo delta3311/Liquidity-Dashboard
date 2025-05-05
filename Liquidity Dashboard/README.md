@@ -55,4 +55,11 @@ Built using:
 
 This dashboard currently uses simulated market data for demonstration. In production, it would connect to real-time market data sources from NSE and SEBI APIs.
 
-*Proprietary and Confidential - MS Capital*
+Screenshots :
+<img width="1292" alt="Screenshot 2025-05-05 at 8 02 02 PM" src="https://github.com/user-attachments/assets/1c513ffa-96de-440c-876f-37a050651b89" />
+<img width="1234" alt="Screenshot 2025-05-05 at 8 02 12 PM" src="https://github.com/user-attachments/assets/a7d0688d-1367-4a86-84f5-15480932a4f0" />
+![Uploading Screenshot 2025-05-05 at 8.02.20 PM.png…]()
+<img width="1256" alt="Screenshot 2025-05-05 at 8 02 28 PM" src="https://github.com/user-attachments/assets/5f0061a2-d54f-4a24-b2fb-5c2c02df511d" />
+
+
+
